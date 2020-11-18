@@ -122,7 +122,7 @@ class SolverComposite(
     frontend_mixins.ConstraintDeduplicatorMixin,
     frontend_mixins.SatCacheMixin,
     frontend_mixins.SimplifySkipperMixin,
-    frontend_mixins.SimplifyHelperMixin,
+    #frontend_mixins.SimplifyHelperMixin,
     frontend_mixins.ConstraintExpansionMixin,
     frontend_mixins.CompositedCacheMixin,
     frontends.CompositeFrontend
